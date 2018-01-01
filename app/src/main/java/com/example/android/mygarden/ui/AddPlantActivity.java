@@ -24,7 +24,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.mygarden.PlantWateringService;
 import com.example.android.mygarden.R;
 import com.example.android.mygarden.provider.PlantContract;
 
