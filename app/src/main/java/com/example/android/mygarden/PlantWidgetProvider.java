@@ -41,6 +41,9 @@ public class PlantWidgetProvider extends AppWidgetProvider {
         appWidgetManager.updateAppWidget(appWidgetId, views);
     }
 
+    public static void updatePlantWidgets(PlantWateringService plantWateringService, AppWidgetManager appWidgetManager, int imgRes, long plantId, boolean canWater, int[] appWidgetIds) {
+    }
+
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         // There may be multiple widgets active, so update all of them
@@ -63,5 +66,4 @@ public class PlantWidgetProvider extends AppWidgetProvider {
     public void onDisabled(Context context) {
         // Perform any action when the last AppWidget instance for this provider is deleted
     }
-
 }
